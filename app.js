@@ -56,12 +56,12 @@ Test this function by hand in the console to get it working, and when you think 
 function sumAndMultiply(a, b, c) { //eslint-disable-line
   
   var m = multiply(a,b)[0] ;
-  var m1 = multiply(m,c)[0];
+  var m2 = multiply(m,c)[0];
   var  sm =sum(a,b)[0];
   var smm= sum(sm,c)[0];
   var mass =`${a} and ${b} and ${c} sum to ${smm}.`;
-  var mw = `The product of ${a} and ${b} and ${c} is ${m1}.`;
-  return[smm ,m1 ,mass,mw];
+  var mw = `The product of ${a} and ${b} and ${c} is ${m2}.`;
+  return[smm ,m2 ,mass,mw];
 
 
 
